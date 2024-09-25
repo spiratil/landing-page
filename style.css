@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "Roboto";
+  src: local("./fonts/Roboto-Black.ttf");
+}
+
+html {
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin: auto;
+  
+}
+
+.gutter {
+  max-width: 70vw;
+}
+
+header {
+  background-color: #1F2937;
+}
